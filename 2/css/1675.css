@@ -1,0 +1,45 @@
+.type-331 {
+  padding-top: 108px;
+  padding-bottom: 78px;
+  background-color: #fafafa;
+}
+.type-331 .progress {
+  height: 5px;
+  background-color: #dbdbdb;
+}
+.type-331 .progress .skill {
+  font: normal 12px "Open Sans Web";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.type-331 .progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+.type-331 .progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+  background-color: #333;
+}
+.type-331 .pro {
+  float: right;
+}
+.type-331 .shoo {
+  border-bottom: 3px solid #000;
+  width: 64px;
+}
+.type-331 .noidung {
+  margin-top: 10px;
+  color: #949494;
+  font-size: 15px;
+}
+.type-331 .title {
+  margin-top: 0px;
+}
+.type-331 .tieude {
+  color: #949494;
+  font-size: 17px;
+}

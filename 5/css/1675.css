@@ -1,0 +1,50 @@
+.type-331 {
+  padding-top: 108px;
+  padding-bottom: 78px;
+  background-color: #000;
+}
+.type-331 .text {
+  margin-top: 23px;
+  color: #949494;
+}
+.type-331 .textwidget:hover {
+  color: #fff;
+}
+.type-331 a:hover {
+  text-decoration: none;
+}
+.type-331 .icon {
+  margin-top: 23px;
+  color: #949494;
+  font-size: 20px;
+}
+.type-331 .fa-instagram {
+  margin: 0px 20px;
+}
+.type-331 .fa-instagram:hover {
+  color: #fff;
+}
+.type-331 .fa-facebook {
+  margin: 0px 20px;
+}
+.type-331 .fa-vimeo:hover {
+  color: #fff;
+}
+.type-331 .fa-twitter:hover {
+  color: #fff;
+}
+.type-331 .fa-facebook:hover {
+  color: #fff;
+}
+.type-331 .fa-tumblr:hover {
+  color: #fff;
+}
+.type-331 .locate {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0;
+}
+.type-331 .contact {
+  color: #949494;
+  margin-top: 19px;
+}
