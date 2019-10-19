@@ -5,7 +5,6 @@
   }
 }
 .type-4 .parallax {
-  background-position: 148px;
   flex-wrap: wrap;
   display: flex;
   box-sizing: border-box;
@@ -31,6 +30,8 @@
   height: auto;
   max-width: 100%;
   vertical-align: top;
+  margin-left: 45px;
+  margin-top: 183px;
 }
 .type-4 .vc_row-fluid {
   padding-top: 108px;
@@ -82,6 +83,57 @@
   color: #000;
   font-size: 16px;
 }
-.hinh {
+.type-4 .hinh {
   width: 100%;
+}
+.type-4 .review {
+  background-color: #edf1f4;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.type-4 .product {
+  justify-content: center !important;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+}
+.type-4 .text-left {
+  padding-right: 28px;
+  vertical-align: top;
+}
+.type-4 .dola {
+  text-decoration: none;
+  font-size: 124px;
+  color: #000;
+  line-height: 1;
+  font-weight: 500;
+}
+.type-4 .currency {
+  margin-right: 3px;
+  display: inline;
+  font-size: 35px;
+  vertical-align: top;
+  position: relative;
+  top: 12px;
+}
+.type-4 .text {
+  padding: 0 12% 0 0 !important;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 2;
+}
+.type-4 .text-right {
+  padding-top: 5px;
+  vertical-align: top;
+}
+.type-4 .brown {
+  margin: 0 0 8px;
+}
+.type-4 .excerpt {
+  font-size: 17px;
+  line-height: 2em;
+}
+.type-4 .items {
+  padding: 1% 0 0 30% !important;
 }

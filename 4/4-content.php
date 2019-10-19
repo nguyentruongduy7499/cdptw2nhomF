@@ -20,6 +20,45 @@
           </figure>
         </div>
       </div>
+
+      <div class="review">
+      <div class="col-md-6 col-lg-6 col-sm-6">
+      <img class="hinh" src="./images/h3-img-2.jpg" alt="">
+      </div>
+      <div class="product">
+      <div class="col-md-6 col-lg-6 col-sm-6">
+      <div class="text">
+        <div class="price">
+          <div class="text-left">
+            <div class="dola">
+              <div class="currency">
+                $
+              </div>
+              35
+            </div>
+          </div>
+          <div class="text-right">
+            <h5 class="brown">
+              <a href="#">Brown T-Shirt</a>
+            </h5>
+            <div class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit in ut ullamcorper leo.</div>
+          </div>
+        </div>
+      </div>
+      <div class="items">
+      
+        <div class="icon-list">
+          <span>  <i class="fa fa-check" style="font-size:18px"></i> </span>
+       
+        </div>
+        <p>Aliquam lorem ante, dapibus in</p>
+        
+      </div>
+      </div>
+      </div>
+      </div>
+
+      
       <div class="vc_row-fluid">
         <div class="vc_custom">
           <div class="wp_wrap">
