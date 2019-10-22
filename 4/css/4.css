@@ -5,33 +5,30 @@
   }
 }
 .type-4 .parallax {
-  flex-wrap: wrap;
-  display: flex;
-  box-sizing: border-box;
-  position: static;
+  background-image: url("../images/h3-parallax-1.jpg");
   background-attachment: fixed;
-  overflow: hidden;
-  width: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+  overflow: hidden;
 }
-.type-4 .vc_col-sm-12 {
+.type-4 .parallax .vc_col-sm-12 {
   display: flex;
-  position: fixed;
   width: 100%;
   justify-content: center;
 }
-.type-4 .wrap {
+.type-4 .parallax .wrap {
   display: inline-block;
   vertical-align: top;
   margin: 0;
   max-width: 100%;
 }
-.type-4 .wrap img {
+.type-4 .parallax .wrap img {
   height: auto;
   max-width: 100%;
   vertical-align: top;
-  margin-left: 45px;
-  margin-top: 183px;
+  margin-top: 107px;
 }
 .type-4 .vc_row-fluid {
   padding-top: 108px;
@@ -40,19 +37,19 @@
   vertical-align: baseline;
   outline: 0;
 }
-.type-4 .vc_custom {
+.type-4 .vc_row-fluid .vc_custom {
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
   text-align: center;
 }
-.type-4 .wp_wrap {
+.type-4 .vc_row-fluid .wp_wrap {
   position: relative;
   margin: 0 auto;
   z-index: 20;
 }
-.type-4 .wp_wrap .title {
+.type-4 .vc_row-fluid .wp_wrap .title {
   font-size: 35px;
   color: #000000;
   font-family: Poppins, sans-serif;
@@ -61,11 +58,11 @@
   display: block;
   margin: 0;
 }
-.type-4 .swiper-container {
+.type-4 .vc_row-fluid .swiper-container {
   width: 100%;
   height: 100%;
 }
-.type-4 .swiper-slide {
+.type-4 .vc_row-fluid .swiper-slide {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -77,7 +74,7 @@
   line-height: 31px;
   font-family: Poppins, sans-serif;
 }
-.type-4 .athur h5 {
+.type-4 .vc_row-fluid .athur h5 {
   margin: 31px 0 0;
   font-weight: 550;
   color: #000;
@@ -92,23 +89,23 @@
   box-sizing: border-box;
   flex-wrap: wrap;
 }
-.type-4 .product {
+.type-4 .review .product {
   justify-content: center !important;
   -webkit-box-align: stretch;
   align-items: stretch;
 }
-.type-4 .text-left {
+.type-4 .review .text-left {
   padding-right: 28px;
   vertical-align: top;
 }
-.type-4 .dola {
+.type-4 .review .dola {
   text-decoration: none;
   font-size: 124px;
   color: #000;
   line-height: 1;
   font-weight: 500;
 }
-.type-4 .currency {
+.type-4 .review .currency {
   margin-right: 3px;
   display: inline;
   font-size: 35px;
@@ -116,24 +113,32 @@
   position: relative;
   top: 12px;
 }
-.type-4 .text {
+.type-4 .review .text {
   padding: 0 12% 0 0 !important;
   position: relative;
   display: inline-block;
   vertical-align: middle;
   z-index: 2;
 }
-.type-4 .text-right {
+.type-4 .review .text-right {
   padding-top: 5px;
   vertical-align: top;
 }
-.type-4 .brown {
+.type-4 .review .brown {
   margin: 0 0 8px;
 }
-.type-4 .excerpt {
+.type-4 .review .excerpt {
   font-size: 17px;
   line-height: 2em;
 }
-.type-4 .items {
+.type-4 .review .items {
   padding: 1% 0 0 30% !important;
+}
+.type-4 .review a {
+  text-decoration: none;
+  color: #000;
+}
+.type-4 .review a:hover {
+  text-decoration: none;
+  color: #000;
 }

@@ -1,6 +1,7 @@
 .type-4{
     @w = 100%;
     @fornt =  Poppins,sans-serif;
+    @display: flex;
     @media (min-width: 768px)
     {
         width: @w;
@@ -8,157 +9,166 @@
     }
     .parallax
     {
-        flex-wrap: wrap;
-        display: flex;
-        box-sizing: border-box;
-        position: static;
+        background-image: url("../images/h3-parallax-1.jpg");
         background-attachment: fixed;
-        overflow: hidden;
-        width: @w;
+        background-position: center;
         background-repeat: no-repeat;
-    }
-    .vc_col-sm-12
-    {
-
-        display: flex;
-        position: fixed;
-        width: @w;    
-        justify-content: center;
+        background-size: cover;
+        min-height: 550px; 
+        overflow: hidden;
        
+        .vc_col-sm-12
+        {
+
+            display: @display;
+            width: @w;    
+            justify-content: center;
+
+        }
+        .wrap
+        {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0;
+            max-width: 100%;
+        } 
+        .wrap img
+        {
+            height: auto;
+            max-width: 100%;
+            vertical-align: top;
+            margin-top: 107px;
+        }
     }
-    .wrap
-    {
-        display: inline-block;
-        vertical-align: top;
-        margin: 0;
-        max-width: 100%;
-    } 
-    .wrap img
-    {
-        height: auto;
-        max-width: 100%;
-        vertical-align: top;
-        margin-left: 45px;
-    margin-top: 183px;
-    }
+    
     .vc_row-fluid{
         padding-top: 108px ;
         padding-bottom: 100px;
         margin-bottom: 0;
         vertical-align: baseline;
         outline: 0;
-    }
-    .vc_custom
-    {
-        box-sizing: border-box;
-        padding-left: 15px;
-        padding-right: 15px;
-        width: @w;
-        text-align: center;
-    }
-    .wp_wrap
-    {
-        position: relative;
-        margin: 0 auto;
-        z-index: 20;
+        .vc_custom
+        {
+            box-sizing: border-box;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: @w;
+            text-align: center;
+        }
+        .wp_wrap
+        {
+            position: relative;
+            margin: 0 auto;
+            z-index: 20;
 
+        }
+        .wp_wrap .title
+        {
+            font-size: 35px;
+            color: #000000;
+            font-family: @fornt;
+            font-weight: 550;
+            line-height: 1.2162em;
+            display: block;
+            margin: 0;
+        }
+        .swiper-container {
+            width: @w;
+            height: 100%;
+        }
+        .swiper-slide {
+            position: relative;
+            display: inline-block;
+            width: @w;
+            vertical-align: middle;
+            margin: 27px 0 0;
+            padding: 0 11%;
+            color: #949494;
+            font-size: 17px;
+            line-height: 31px;
+            font-family: @fornt;
+        }
+        .athur h5
+        {
+            margin: 31px 0 0;
+            font-weight: 550;
+            color: #000;
+            font-size: 16px;
+        }
     }
-    .wp_wrap .title
-    {
-        font-size: 35px;
-        color: #000000;
-        font-family: @fornt;
-        font-weight: 550;
-        line-height: 1.2162em;
-        display: block;
-        margin: 0;
-    }
-    .swiper-container {
-        width: @w;
-        height: 100%;
-    }
-    .swiper-slide {
-        position: relative;
-        display: inline-block;
-        width: @w;
-        vertical-align: middle;
-        margin: 27px 0 0;
-        padding: 0 11%;
-        color: #949494;
-        font-size: 17px;
-        line-height: 31px;
-        font-family: @fornt;
-    }
-    .athur h5
-    {
-        margin: 31px 0 0;
-        font-weight: 550;
-        color: #000;
-        font-size: 16px;
-    }
+    
     .hinh{
         width: 100%;
     }
     .review
     {
         background-color: #edf1f4;
-        display: flex;
+        display: @display;
         box-sizing: border-box;
         flex-wrap: wrap;
-    }
-    .product
-    {
-        justify-content: center !important;
-        -webkit-box-align: stretch;
-        align-items: stretch;
+        .product
+        {
+            justify-content: center !important;
+            -webkit-box-align: stretch;
+            align-items: stretch;
 
-    }
-    .text-left
-    {
-        padding-right: 28px;
-    vertical-align: top;
+        }
+        .text-left
+        {
+            padding-right: 28px;
+            vertical-align: top;
 
+        }
+        .dola
+        {
+            text-decoration: none;
+            font-size: 124px;
+            color: #000;
+            line-height: 1;
+            font-weight: 500;
+        }
+        .currency
+        {
+            margin-right: 3px;
+            display: inline;
+            font-size: 35px;
+            vertical-align: top;
+            position: relative;
+            top: 12px;
+        }
+        .text{
+            padding: 0 12% 0 0 !important;
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            z-index: 2
+        }
+        .text-right
+        {
+            padding-top: 5px;
+            vertical-align: top;
+        }
+        .brown
+        {
+            margin: 0 0 8px;
+        }
+        .excerpt{
+            font-size: 17px;
+            line-height: 2em;
+        }
+        .items
+        {
+            padding: 1% 0 0 30% !important;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover{
+            text-decoration: none;
+            color: #000;
+        }
     }
-    .dola
-    {
-        text-decoration: none;
-        font-size: 124px;
-        color: #000;
-        line-height: 1;
-        font-weight: 500;
-    }
-    .currency
-    {
-        margin-right: 3px;
-        display: inline;
-        font-size: 35px;
-        vertical-align: top;
-        position: relative;
-        top: 12px;
-    }
-    .text{
-        padding: 0 12% 0 0 !important;
-        position: relative;
-        display: inline-block;
-        vertical-align: middle;
-        z-index: 2
-    }
-    .text-right
-    {
-        padding-top: 5px;
-        vertical-align: top;
-    }
-    .brown
-    {
-        margin: 0 0 8px;
-    }
-    .excerpt{
-    font-size: 17px;
-    line-height: 2em;
-    }
-    .items
-    {
-        padding: 1% 0 0 30% !important;
-    }
-   
+    
+
 }
