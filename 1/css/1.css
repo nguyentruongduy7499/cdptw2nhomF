@@ -9,12 +9,81 @@
 .type-1 .home {
   text-decoration: line-through;
 }
-.type-1 li,
-.type-1 a,
-.type-1 button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+.type-1 .swiper-button-next {
+  background-image: none;
+}
+.type-1 .swiper-button-next i {
+  display: none;
+}
+.type-1 .swiper-button-next:before {
+  content: "";
+  border-left: 2px solid black;
+  height: 40px;
+  transform: translateX(-8px);
+  transition: 0.5s ease;
+  margin-top: -30px;
+}
+.type-1 .swiper-button-next:hover:before {
+  content: "";
+  border-left: 2px solid black;
+  height: 40px;
+  transform: rotate(-45deg);
+  margin-top: -64px;
+  margin-left: -7px;
+}
+.type-1 .swiper-button-next:after {
+  content: "";
+  border-left: 2px solid black;
+  height: 40px;
+  margin-left: -2px;
+  transform: translateX(-8px);
+  transition: 0.5s ease;
+}
+.type-1 .swiper-button-next:hover:after {
+  content: "";
+  border-left: 2px solid black;
+  height: 40px;
+  transform: rotate(45deg);
+  margin-left: -2px;
+  margin-bottom: 12px;
+}
+.type-1 .swiper-button-prev {
+  background-image: none;
+}
+.type-1 .swiper-button-prev i {
+  display: none;
+}
+.type-1 .swiper-button-prev:before {
+  content: "";
+  border-left: 2px solid black;
+  height: 40px;
+  transform: translateX(8px);
+  transition: 0.5s ease;
+  margin-top: -25px;
+}
+.type-1 .swiper-button-prev:hover:before {
+  content: "";
+  border-left: 2px solid black;
+  height: 40px;
+  transform: rotate(45deg);
+  margin-top: -65px;
+  margin-left: -7px;
+}
+.type-1 .swiper-button-prev:after {
+  content: "";
+  border-left: 2px solid black;
+  height: 40px;
+  margin-left: -2px;
+  transform: translateX(8px);
+  transition: 0.5s ease;
+}
+.type-1 .swiper-button-prev:hover:after {
+  content: "";
+  border-left: 2px solid black;
+  height: 40px;
+  transform: rotate(-45deg);
+  margin-left: -2px;
+  margin-bottom: 12px;
 }
 .type-1 header {
   z-index: 1;
@@ -42,6 +111,28 @@
 }
 .type-1 .nav__links li a:hover {
   text-decoration: line-through;
+  color: black;
+}
+.type-1 .sub-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+.type-1 #menu li {
+  position: relative;
+}
+.type-1 #menu li:hover .sub-menu {
+  display: block;
+}
+.type-1 .sub-menu li {
+  margin-left: 0 !important;
+}
+.type-1 .sub-menu li a:hover {
+  text-decoration: none;
+  color: grey;
+}
+.type-1 .sub-menu > ul {
+  display: none !mportant;
 }
 .type-1 .swiper-container {
   width: 100%;
@@ -82,7 +173,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #000000;
+  background: url(../images/tt.jpg);
   background-color: rgba(0,0,0,0.9);
 }
 .type-1 .overlay-content {
@@ -99,7 +190,7 @@
   right: 45px;
   font-size: 60px;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 .type-1 .overlay .closebtn:hover {
   color: #ccc;
@@ -181,6 +272,14 @@
 .type-1 .overlay input[type=text]:hover {
   background: #f1f1f1;
 }
+.type-1 .hinh {
+  width: 25%;
+  padding: 5px;
+}
+.type-1 .titlefollow {
+  font-size: 22px;
+  padding: 130px;
+}
 .type-1 .overlay button {
   float: left;
   width: 20%;
@@ -206,10 +305,11 @@
 }
 .type-1 .overlay-content-v1 {
   position: relative;
-  top: 25%;
+  top: 5%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  font-size: 40px;
 }
 .type-1 .overlay-v1 a {
   padding: 8px;
@@ -238,4 +338,43 @@
     top: 15px;
     right: 35px;
   }
+}
+.type-1 .lorem {
+  padding: 15px;
+}
+.type-1 .hinhanh {
+  padding: 10px;
+}
+.type-1 #opener.closebtn {
+  text-decoration: none;
+}
+.type-1 .btn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.type-1 .dropdown {
+  position: absolute;
+  display: inline-block;
+}
+.type-1 .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+.type-1 .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.type-1 .dropdown-content a:hover {
+  background-color: #ddd;
+}
+.type-1 .dropdown:hover .dropdown-content {
+  display: block;
 }
