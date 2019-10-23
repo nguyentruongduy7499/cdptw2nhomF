@@ -84,17 +84,21 @@
   width: 100%;
 }
 .type-4 .review {
+  font-family: Poppins, sans-serif;
   background-color: #edf1f4;
   display: flex;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
 .type-4 .review .product {
-  justify-content: center !important;
-  -webkit-box-align: stretch;
-  align-items: stretch;
+  margin-top: 113px;
 }
-.type-4 .review .text-left {
+.type-4 .review .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.type-4 .review .left {
   padding-right: 28px;
   vertical-align: top;
 }
@@ -104,6 +108,7 @@
   color: #000;
   line-height: 1;
   font-weight: 500;
+  display: flex;
 }
 .type-4 .review .currency {
   margin-right: 3px;
@@ -120,9 +125,17 @@
   vertical-align: middle;
   z-index: 2;
 }
-.type-4 .review .text-right {
+.type-4 .review .right {
   padding-top: 5px;
   vertical-align: top;
+}
+.type-4 .review .holder {
+  position: relative;
+  display: flex;
+  table-layout: fixed;
+  height: auto;
+  width: 100%;
+  margin-bottom: 8px;
 }
 .type-4 .review .brown {
   margin: 0 0 8px;
@@ -130,9 +143,14 @@
 .type-4 .review .excerpt {
   font-size: 17px;
   line-height: 2em;
+  color: #949494;
 }
 .type-4 .review .items {
   padding: 1% 0 0 30% !important;
+}
+.type-4 .review p.lorem {
+  color: #949494;
+  padding-left: 35px;
 }
 .type-4 .review a {
   text-decoration: none;

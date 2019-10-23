@@ -6,6 +6,7 @@
     {
         width: @w;
         overflow: hidden;
+
     }
     .parallax
     {
@@ -16,7 +17,7 @@
         background-size: cover;
         min-height: 550px; 
         overflow: hidden;
-       
+
         .vc_col-sm-12
         {
 
@@ -102,18 +103,22 @@
     }
     .review
     {
+        font-family: Poppins,sans-serif;
         background-color: #edf1f4;
         display: @display;
         box-sizing: border-box;
         flex-wrap: wrap;
         .product
         {
-            justify-content: center !important;
-            -webkit-box-align: stretch;
-            align-items: stretch;
-
+            margin-top: 113px;
         }
-        .text-left
+        .price
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left
         {
             padding-right: 28px;
             vertical-align: top;
@@ -126,6 +131,7 @@
             color: #000;
             line-height: 1;
             font-weight: 500;
+            display: flex;
         }
         .currency
         {
@@ -143,10 +149,19 @@
             vertical-align: middle;
             z-index: 2
         }
-        .text-right
+        .right
         {
             padding-top: 5px;
             vertical-align: top;
+        }
+        .holder
+        {
+            position: relative;
+            display: flex;
+            table-layout: fixed;
+            height: auto;
+            width: 100%;
+            margin-bottom: 8px;
         }
         .brown
         {
@@ -155,10 +170,17 @@
         .excerpt{
             font-size: 17px;
             line-height: 2em;
+            color:#949494;
         }
         .items
         {
             padding: 1% 0 0 30% !important;
+
+        }
+        p.lorem
+        {
+            color:#949494;
+            padding-left: 35px;
         }
         a{
             text-decoration: none;
