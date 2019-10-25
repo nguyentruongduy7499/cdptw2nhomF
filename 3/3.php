@@ -10,7 +10,7 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/2.less', 'css/2.css');
+$less->compileFile('less/3.less', 'css/3.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,19 +18,15 @@ $less->compileFile('less/2.less', 'css/2.css');
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
         <title>3</title>
         <link rel="stylesheet" type="text/css" href="css/3.css">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
-    
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/swiper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-
-        <script src="js/3.js"></script>
-   
+        <script src="js/3.js"></script> 
     </head>
     <body>
         <?php include '../3/3-content.php'; ?>
