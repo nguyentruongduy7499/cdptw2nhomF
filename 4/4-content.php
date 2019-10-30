@@ -93,11 +93,11 @@
             </div>  
           </div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+
         <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next swiper-button-white next"></div>
+        <div class="swiper-button-prev swiper-button-white prev"></div>
+
       </div>
     </div>
   </div>
