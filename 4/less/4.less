@@ -8,6 +8,12 @@
         overflow: hidden;
 
     }
+     @media (max-width: 768px)
+    {
+        width: @w;
+        overflow: hidden;
+
+    }
     .parallax
     {
         background-image: url("../images/h3-parallax-1.jpg");
@@ -89,108 +95,127 @@
             line-height: 31px;
             font-family: @fornt;
         }
-        .athur h5
+        .swiper-button-next.swiper-button-white, .swiper-button-prev.swiper-button-white
         {
-            margin: 31px 0 0;
-            font-weight: 550;
-            color: #000;
-            font-size: 16px;
-        }
+            --swiper-navigation-color: #e0e0e0;
+            &:hover{
+              --swiper-navigation-color: #999;
+              transition: all .45s cubic-bezier(0,.95,.77,1);
+              transform: translate3d(-6px,0,0);
+
+          }
+      }
+       .swiper-button-next.swiper-button-white.next{
+         &:hover{
+              --swiper-navigation-color: #999;
+              transition: all .45s cubic-bezier(0,.95,.77,1);
+              transform: translate3d(6px,0,0);
+
+          }
+
+       }
+      .athur h5
+      {
+        margin: 31px 0 0;
+        font-weight: 550;
+        color: #000;
+        font-size: 16px;
     }
-    
-    .hinh{
-        width: 100%;
-    }
-    .review
+}
+
+.hinh{
+    width: 100%;
+}
+.review
+{
+    font-family: Poppins,sans-serif;
+    background-color: #edf1f4;
+    display: @display;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    .product
     {
-        font-family: Poppins,sans-serif;
-        background-color: #edf1f4;
-        display: @display;
-        box-sizing: border-box;
-        flex-wrap: wrap;
-        .product
-        {
-            margin-top: 113px;
-        }
-        .price
-        {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .left
-        {
-            padding-right: 28px;
-            vertical-align: top;
-
-        }
-        .dola
-        {
-            text-decoration: none;
-            font-size: 124px;
-            color: #000;
-            line-height: 1;
-            font-weight: 500;
-            display: flex;
-        }
-        .currency
-        {
-            margin-right: 3px;
-            display: inline;
-            font-size: 35px;
-            vertical-align: top;
-            position: relative;
-            top: 12px;
-        }
-        .text{
-            padding: 0 12% 0 0 !important;
-            position: relative;
-            display: inline-block;
-            vertical-align: middle;
-            z-index: 2
-        }
-        .right
-        {
-            padding-top: 5px;
-            vertical-align: top;
-        }
-        .holder
-        {
-            position: relative;
-            display: flex;
-            table-layout: fixed;
-            height: auto;
-            width: 100%;
-            margin-bottom: 8px;
-        }
-        .brown
-        {
-            margin: 0 0 8px;
-        }
-        .excerpt{
-            font-size: 17px;
-            line-height: 2em;
-            color:#949494;
-        }
-        .items
-        {
-            padding: 1% 0 0 30% !important;
-
-        }
-        p.lorem
-        {
-            color:#949494;
-            padding-left: 35px;
-        }
-        a{
-            text-decoration: none;
-            color: #000;
-        }
-        a:hover{
-            text-decoration: none;
-            color: #000;
-        }
+        margin-top: 113px;
     }
-    
+    .price
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left
+    {
+        padding-right: 28px;
+        vertical-align: top;
+
+    }
+    .dola
+    {
+        text-decoration: none;
+        font-size: 124px;
+        color: #000;
+        line-height: 1;
+        font-weight: 500;
+        display: flex;
+    }
+    .currency
+    {
+        margin-right: 3px;
+        display: inline;
+        font-size: 35px;
+        vertical-align: top;
+        position: relative;
+        top: 12px;
+    }
+    .text{
+        padding: 0 12% 0 0 !important;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        z-index: 2
+    }
+    .right
+    {
+        padding-top: 5px;
+        vertical-align: top;
+    }
+    .holder
+    {
+        position: relative;
+        display: flex;
+        table-layout: fixed;
+        height: auto;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .brown
+    {
+        margin: 0 0 8px;
+    }
+    .excerpt{
+        font-size: 17px;
+        line-height: 2em;
+        color:#949494;
+    }
+    .items
+    {
+        padding: 1% 0 0 30% !important;
+
+    }
+    p.lorem
+    {
+        color:#949494;
+        padding-left: 35px;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #000;
+    }
+}
+
 
 }

@@ -3,15 +3,170 @@
   margin: 0 auto;
   height: 100%;
   background-color: #fff;
+  position: relative;
+}
+.type-2 .container .thongtin {
+  z-index: 1;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: none;
+  background-color: #000;
+  background-color: rgba(0,0,0,0.7);
+  top: 0;
+}
+.type-2 .container .thongtin .lopcontent {
+  position: relative;
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  margin-left: 13.5%;
+}
+.type-2 .container .thongtin .lopcontent .chuaanh {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+.type-2 .container .thongtin .lopcontent .chuaanh img {
+  width: 100%;
+  height: max-content;
+}
+.type-2 .container .thongtin .lopcontent .chuaanh .new1 {
+  background-color: #fff;
+  position: absolute;
+  top: 6%;
+  left: 42%;
+  padding: 3px 22px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+.type-2 .container .thongtin .lopcontent .chuaanh .sale1 {
+  background-color: #000;
+  position: absolute;
+  top: 6%;
+  left: 41.5%;
+  padding: 3px 22px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: #fff;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung {
+  text-align: left;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row {
+  margin: 7%;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row h2 {
+  text-transform: lowercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .rating {
+  margin-bottom: 16px;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .giatien1 {
+  margin: 0 0 53px;
+  line-height: 1;
+  color: #000;
+  font-size: 24px;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .giatien1 .giamgia1 {
+  text-decoration: line-through;
+  font-size: 19px;
+  color: #949494;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 h4 {
+  text-transform: lowercase;
+  top: 57px;
+  font-weight: bolder;
+  position: relative;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .comment {
+  text-align: -webkit-left;
+  font-size: 15px;
+  outline: 0;
+  margin: 0 0 47px;
+  width: 100%;
+  color: #949494;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui {
+  width: 47%;
+  border: 1px solid darkgrey;
+  padding: 10px;
+  margin-right: 5px;
+  float: left;
+  color: #949494;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui .d {
+  width: 22px;
+  border: none;
+  text-align: center;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui .Quantity {
+  margin-right: 39px;
+  margin-left: 5px;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui .left a {
+  color: #949494;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui .right a {
+  color: #949494;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .add {
+  padding: 12px 54px;
+  color: #fff;
+  background-color: black;
+  border: 1px;
+  text-transform: lowercase;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .add:hover {
+  background-color: #2f2f2f;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .add-wish {
+  margin-top: 25%;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .add-wish .heart {
+  color: black;
+}
+.type-2 .container .thongtin .lopcontent .chuatintuc .noidung .row .price1 .add-wish .Wishlist {
+  text-decoration: none;
+  text-transform: lowercase;
+  color: darkgrey;
+}
+.type-2 .container .thongtin .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+}
+.type-2 .container .thongtin .closebtn:hover {
+  color: #ccc;
 }
 .type-2 .khung {
   width: 1100px;
   height: 536px;
   margin-left: 45px;
+  position: relative;
 }
 .type-2 .khung .swiper-container {
   width: 100%;
   height: 100%;
+  position: relative;
+  margin: 0 4%;
 }
 .type-2 .khung .swiper-container .swiper-slide {
   text-align: center;
@@ -90,9 +245,11 @@
   line-height: 25px;
   text-transform: lowercase;
   letter-spacing: .1em;
+  text-decoration: none;
 }
 .type-2 .khung .swiper-container .swiper-slide .vo .iner .text .out-text .in-text .holder a:hover {
   text-decoration: none;
+  color: darkgray;
 }
 .type-2 .khung .swiper-container .swiper-slide .vo .iner .text .out-text .in-text .wishlist {
   right: 17px;
@@ -119,9 +276,10 @@
 .type-2 .khung .swiper-container .swiper-slide .vo .title .title1 {
   margin: 0;
   float: left;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: lowercase;
   line-height: 1.4375em;
+  font-weight: bold;
 }
 .type-2 .khung .swiper-container .swiper-slide .vo .title .title1 a {
   color: #000;
@@ -139,9 +297,9 @@
   text-decoration: line-through;
 }
 .type-2 .khung .swiper-container .swiper-slide .vo .title .price-lon .add-to-cart {
-  width: 50%;
+  width: 56%;
   margin: 0;
-  transform: translateX(113px);
+  text-align: right;
   opacity: 0;
 }
 .type-2 .khung .swiper-container .swiper-slide .vo .title .price-lon .add-to-cart a {
@@ -152,6 +310,10 @@
   font-weight: 300;
   font-size: 12px;
   text-transform: lowercase;
+}
+.type-2 .khung .swiper-container .swiper-slide .vo .title .price-lon .add-to-cart i {
+  font-size: 12px;
+  padding-left: 8px;
 }
 .type-2 .khung .swiper-container .swiper-slide .vo .title .category {
   padding: 3px 0 0;
@@ -180,29 +342,239 @@
 }
 .type-2 .khung .swiper-container .swiper-slide .vo:hover .title .price-lon .add-to-cart {
   opacity: 1;
-  transform: translateX(162px);
+  transform: translateX(148px);
   transition: 0.4s ease;
 }
 .type-2 .khung .swiper-container .swiper-button-next {
   top: 15%;
-  right: -1%;
+  right: 0.5%;
   background-image: none;
   font-size: 24px;
   color: #b6b6b6;
   transition: 0.4s;
+  width: 9px;
 }
 .type-2 .khung .swiper-container .swiper-button-next:hover {
   color: #000;
 }
 .type-2 .khung .swiper-container .swiper-button-prev {
   top: 15%;
-  right: 1%;
+  right: 2%;
   left: auto;
   background-image: none;
   font-size: 24px;
   color: #b6b6b6;
   transition: 0.4s;
+  width: 9px;
 }
 .type-2 .khung .swiper-container .swiper-button-prev:hover {
   color: #000;
+}
+@media only screen and (max-width: 600px) {
+  .type-2 .khung {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin-left: 52px;
+  }
+  .type-2 .khung .swiper-container {
+    width: 70%;
+    margin-left: 55px;
+    margin-top: 47px;
+  }
+  .type-2 .khung .swiper-container .swiper-slide {
+    width: 287px;
+    margin-top: 18px;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .type-2 .khung .swiper-container .swiper-slide .vo .title {
+    font-size: 13px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .type-2 .khung .swiper-container .swiper-slide .vo .title .price-lon .add-to-cart {
+    width: 68%;
+  }
+  .type-2 .khung .swiper-container .nut {
+    position: relative;
+    top: -91%;
+  }
+  .type-2 .khung .swiper-container .swiper-button-next {
+    top: 4% !important;
+    font-size: 25px !important;
+    right: 1.5%;
+  }
+  .type-2 .khung .swiper-container .swiper-button-prev {
+    top: 4% !important;
+    font-size: 25px !important;
+    right: 6% !important;
+  }
+  .type-2 .khung .text {
+    top: 85% !important;
+  }
+  .type-2 .khung .vo:hover .title .price-lon .add-to-cart {
+    opacity: 1;
+    transform: translateX(88px) !important;
+    transition: 0.4s ease;
+  }
+  .type-2 .khung .thongtin {
+    font-size: 13px;
+  }
+  .type-2 .lopcontent {
+    height: 90% !important;
+    top: 25px;
+    background-size: cover;
+  }
+  .type-2 .lopcontent .chuaanh {
+    width: 100% !important;
+    height: 40% !important;
+    background-size: cover;
+  }
+  .type-2 .lopcontent .chuaanh img {
+    width: 100%;
+    height: 100% !important;
+  }
+  .type-2 .lopcontent .chuaanh .new1 {
+    right: 1px !important;
+    left: 81% !important;
+  }
+  .type-2 .lopcontent .chuatintuc {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row {
+    margin: 2% !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row h2 {
+    font-size: 20px !important;
+    margin: 0px !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row .price1 .giatien1 {
+    margin: 0 0 7px !important;
+    font-size: 17px !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row .price1 .comment {
+    font-size: 13px !important;
+    margin: 0 !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row .price1 .add-wish {
+    margin-top: 25px !important;
+  }
+  .type-2 .closebtn {
+    top: -2px !important;
+    right: 2px !important;
+    font-size: 17px !important;
+    opacity: 0;
+  }
+  .type-2 .closebtn:hover {
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .type-2 .khung {
+    width: 600px;
+    height: 290px;
+    position: relative;
+    margin-left: 52px;
+  }
+  .type-2 .khung .swiper-container {
+    width: 100%;
+    margin: 0;
+  }
+  .type-2 .khung .swiper-container .swiper-slide {
+    width: 298px !important;
+    margin-top: 18px;
+    margin-right: 7px !important;
+    left: 15px;
+    font-size: 13px;
+  }
+  .type-2 .khung .swiper-container .swiper-slide .vo .title {
+    font-size: 13px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .type-2 .khung .swiper-container .swiper-slide .vo .title .price-lon .add-to-cart {
+    width: 68%;
+  }
+  .type-2 .khung .swiper-container .nut {
+    position: relative;
+    top: -91%;
+  }
+  .type-2 .khung .swiper-container .swiper-button-next {
+    margin-top: -30px;
+    right: 0% !important;
+    font-size: 25px !important;
+  }
+  .type-2 .khung .swiper-container .swiper-button-prev {
+    margin-top: -30px;
+    font-size: 25px !important;
+    right: 2% !important;
+  }
+  .type-2 .khung .text {
+    top: 85% !important;
+  }
+  .type-2 .khung .vo:hover .title .price-lon .add-to-cart {
+    opacity: 1;
+    transform: translateX(88px) !important;
+    transition: 0.4s ease;
+  }
+  .type-2 .khung .thongtin {
+    font-size: 13px;
+  }
+  .type-2 .lopcontent {
+    height: 92% !important;
+    top: 25px;
+    background-size: cover;
+  }
+  .type-2 .lopcontent .chuaanh {
+    width: 100% !important;
+    height: 50% !important;
+    background-size: cover;
+  }
+  .type-2 .lopcontent .chuaanh img {
+    width: 100%;
+    height: 100% !important;
+  }
+  .type-2 .lopcontent .chuaanh .new1 {
+    right: 1px !important;
+    left: 81% !important;
+  }
+  .type-2 .lopcontent .chuatintuc {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row {
+    margin: 5% !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row h2 {
+    font-size: 20px !important;
+    margin: 0px !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui {
+    width: 37% !important;
+    padding: 10px 0 !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row .price1 .giatien1 {
+    margin: 0 0 7px !important;
+    font-size: 17px !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row .price1 .comment {
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+  .type-2 .lopcontent .chuatintuc .noidung .row .price1 .add-wish {
+    margin-top: 25px !important;
+  }
+  .type-2 .closebtn {
+    top: -2px !important;
+    right: 2px !important;
+    font-size: 17px !important;
+    opacity: 0;
+  }
+  .type-2 .closebtn:hover {
+    opacity: 1;
+  }
 }

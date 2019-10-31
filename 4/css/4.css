@@ -4,6 +4,12 @@
     overflow: hidden;
   }
 }
+@media (max-width: 768px) {
+  .type-4 {
+    width: 100%;
+    overflow: hidden;
+  }
+}
 .type-4 .parallax {
   background-image: url("../images/h3-parallax-1.jpg");
   background-attachment: fixed;
@@ -73,6 +79,21 @@
   font-size: 17px;
   line-height: 31px;
   font-family: Poppins, sans-serif;
+}
+.type-4 .vc_row-fluid .swiper-button-next.swiper-button-white,
+.type-4 .vc_row-fluid .swiper-button-prev.swiper-button-white {
+  --swiper-navigation-color: #e0e0e0;
+}
+.type-4 .vc_row-fluid .swiper-button-next.swiper-button-white:hover,
+.type-4 .vc_row-fluid .swiper-button-prev.swiper-button-white:hover {
+  --swiper-navigation-color: #999;
+  transition: all .45s cubic-bezier(0,.95,.77,1);
+  transform: translate3d(-6px,0,0);
+}
+.type-4 .vc_row-fluid .swiper-button-next.swiper-button-white.next:hover {
+  --swiper-navigation-color: #999;
+  transition: all .45s cubic-bezier(0,.95,.77,1);
+  transform: translate3d(6px,0,0);
 }
 .type-4 .vc_row-fluid .athur h5 {
   margin: 31px 0 0;
