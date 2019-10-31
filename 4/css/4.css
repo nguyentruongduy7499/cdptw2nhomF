@@ -4,6 +4,12 @@
     overflow: hidden;
   }
 }
+@media (max-width: 768px) {
+  .type-4 {
+    width: 100%;
+    overflow: hidden;
+  }
+}
 .type-4 .parallax {
   background-image: url("../images/h3-parallax-1.jpg");
   background-attachment: fixed;
