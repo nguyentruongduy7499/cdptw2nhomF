@@ -29,12 +29,7 @@
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
         <link href="<?php echo $url_path ?>/css/2.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
-       
-        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-
     </head>
-
     <body>   
             <?php include $dir_block.'/2-content.php'; ?>
             <script src="<?php echo $url_path ?>/js/2.js"></script>
