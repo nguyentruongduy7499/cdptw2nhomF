@@ -14,24 +14,24 @@
     }
     
     $less = new lessc;
-    $less->compileFile('less/2.less', 'css/2.css');
+    $less->compileFile('less/5.less', 'css/5.css');
     
 ?>
 <!DOCTYPE html>
 
 <html lang="en">
     <head>
-        <title>module 2</title>
+        <title>module 5</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet"  />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="<?php echo $url_path ?>/css/2.css" rel="stylesheet" type="text/css" />
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
+        <link href="<?php echo $url_path ?>/css/5.css" rel="stylesheet" type="text/css" />
     </head>
+
     <body>   
-            <?php include $dir_block.'/2-content.php'; ?>
-            <script src="<?php echo $url_path ?>/js/2.js"></script>
+            <?php include $dir_block.'/5-content.php'; ?>
+            <script src="<?php echo $url_path ?>/js/5.js"></script>
     </body>
 </html>
