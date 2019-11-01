@@ -8,11 +8,10 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-2">
 	<div class="container">
-
 		<div class="row">
 			<div class="khung">
 				<!-- Slider main container -->
-				<div class="swiper-container">
+				<div class="swiper-container so3">
 					<!-- Additional required wrapper -->
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
@@ -509,7 +508,6 @@ $url_path = str_replace('\\', '/', $url_path);
 										<div class="add-wish">
 											<a href="#" class="heart"><i class="fa fa-heart" aria-hidden="true"></i></a>
 											<a href="#" class="Wishlist">Add to Wishlist</a>
-
 										</div>
 									</div>
 								</div>
@@ -517,10 +515,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
-
-
 	</div>
 </div>
