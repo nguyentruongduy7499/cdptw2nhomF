@@ -1,11 +1,37 @@
 .type-1 {
+  width: 100%;
+  height: 80%;
   position: relative;
+}
+.type-1 .swiper-counter,
+.type-1 .swiper-counter span {
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99999;
+  font-size: 30px;
+  color: #fff;
+}
+.type-1 .swiper-counter .next,
+.type-1 .swiper-counter .count {
+  position: absolute;
+}
+.type-1 .swiper-counter .next {
+  transform: translateY(-12px);
+  right: 10px;
 }
 .type-1 .swiper-container .swiper-button-next {
   background-image: none;
 }
 .type-1 .swiper-container .swiper-button-next i {
   display: none;
+}
+.type-1 .swiper-container .swiper-button-next .number-next {
+  position: absolute;
+  right: 53px;
+  font-weight: bold;
+  color: black;
+  font-size: 45px;
 }
 .type-1 .swiper-container .swiper-button-next:before {
   content: "";
@@ -44,6 +70,13 @@
 }
 .type-1 .swiper-container .swiper-button-prev i {
   display: none;
+}
+.type-1 .swiper-container .swiper-button-prev .number-prev {
+  position: absolute;
+  left: 53px;
+  font-weight: bold;
+  color: black;
+  font-size: 45px;
 }
 .type-1 .swiper-container .swiper-button-prev:before {
   content: "";
@@ -97,6 +130,48 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+.type-1 .swiper-container .swiper-slide .content {
+  position: absolute;
+  z-index: 3;
+  left: 250px;
+  top: 300px;
+  text-align: left;
+}
+.type-1 .swiper-container .swiper-slide .content #sl1 .ct1 {
+  font-size: 15px;
+  color: grey;
+}
+.type-1 .swiper-container .swiper-slide .content #sl1 .hr {
+  border: 2px solid black;
+}
+.type-1 .swiper-container .swiper-slide .content1 {
+  position: absolute;
+  z-index: 2;
+  text-align: right;
+  right: 250px;
+  top: 450px;
+}
+.type-1 .swiper-container .swiper-slide .content1 #sl1 .ct1 {
+  font-size: 15px;
+  color: grey;
+}
+.type-1 .swiper-container .swiper-slide .content1 #sl1 .hr {
+  border: 2px solid black;
+}
+.type-1 .swiper-container .swiper-slide .content2 {
+  position: absolute;
+  z-index: 3;
+  left: 250px;
+  top: 300px;
+  text-align: left;
+}
+.type-1 .swiper-container .swiper-slide .content2 #sl1 .ct1 {
+  font-size: 15px;
+  color: grey;
+}
+.type-1 .swiper-container .swiper-slide .content2 #sl1 .hr {
+  border: 2px solid black;
 }
 .type-1 .scroll {
   background-color: #000 0;

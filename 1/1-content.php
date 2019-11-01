@@ -82,109 +82,138 @@ $url_path = str_replace('\\', '/', $url_path);
 										</ul>
 									</li>
 									<li>
-								<div id="myOverlay" class="overlay">
-									<span class="closebtn" id="dong"  title="Close Overlay" style="color: black;">×</span>
-									<div class="overlay-content">
-										<form action="/action_page.php">
-											<input type="text" placeholder="Search for ..." name="search">
-											<button type="submit" id="cc"><i class="fa fa-search" aria-hidden="true"></i></button>
-										</form>
-									</div>
-								</div>
-								<a class="openBtn" id="mo" ><i class="fa fa-search" aria-hidden="true"></i></a>
-							</li>
-							<li>
-								<a href="#"><img src="image/sidearea-opener.png" width="50%" id="dai">
-									<div id="myNav" class="overlay-v1">
-										<a href="javascript:void(0)" class="closebtn" id="opener">&times;</a>
-										<div class="overlay-content-v1">
-											<h1 class="welcome"> Welcome  </h1>
-											<h4 class="lorem">.Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h4>
-											<h4 class="ae">aenean commodo</h4>
-											<div class="hinhanh">
-												<ul>
-													<span class="trans">	
-														<img class="hinh" src="image/1.jpg" alt="">
-														<div class="middle">
-															<div class="instagram">
-																<i class=" fa fa-instagram"></i>
-															</div>   
-														</div>
-													</span>
-													<span class="trans">    
-														<img class="hinh" src="image/2.jpg" alt="">
-														<div class="middle">
-															<div class="instagram">
-																<i class="fa fa-instagram"></i>
-															</div>   
-														</div>
-													</span>
-													<span class="trans">    
-														<img class="hinh" src="image/3.jpg" alt="">
-														<div class="middle">
-															<div class="instagram">
-																<i class="fa fa-instagram"></i>
-															</div>   
-														</div>
-													</span>
-													<div class="top">
-														<span class="trans">    
-															<img class="hinh" src="image/4.jpg" alt="">
-															<div class="middle">
-																<div class="instagram">
-																	<i class="fa fa-instagram"></i>
-																</div>   
-															</div>
-														</span>
-														<span class="trans">    
-															<img class="hinh" src="image/5.jpg" alt="">
-															<div class="middle">
-																<div class="instagram">
-																	<i class="fa fa-instagram"></i>
-																</div>   
-															</div>
-														</span>
-														<span class="trans">    
-															<img class="hinh" src="image/6.jpg" alt="">
-															<div class="middle">
-																<div class="instagram">
-																	<i class="fa fa-instagram"></i>
-																</div>   
-															</div>
-														</span>
-													</div>
-
-												</ul>
-											</div>
-											<div class="titlefollow">
-												<p> follow our awesomeness</p>
-												<div class="icon">
-													<i class="fa fa-twitter" aria-hidden="true"></i>
-													<i class="fa fa-instagram" aria-hidden="true"></i>
-													<i class="fa fa-facebook" aria-hidden="true"></i>
-												</div>
+										<div id="myOverlay" class="overlay">
+											<span class="closebtn" id="dong"  title="Close Overlay" style="color: black;">×</span>
+											<div class="overlay-content">
+												<form action="/action_page.php">
+													<input type="text" placeholder="Search for ..." name="search">
+													<button type="submit" id="cc"><i class="fa fa-search" aria-hidden="true"></i></button>
+												</form>
 											</div>
 										</div>
-									</div>
-								</a>
-							</li>
+										<a class="openBtn" id="mo" ><i class="fa fa-search" aria-hidden="true"></i></a>
+									</li>
+									<li>
+										<a href="#"><img src="image/sidearea-opener.png" width="50%" id="dai">
+											<div id="myNav" class="overlay-v1">
+												<a href="javascript:void(0)" class="closebtn" id="opener">&times;</a>
+												<div class="overlay-content-v1">
+													<h1 class="welcome"> Welcome  </h1>
+													<h4 class="lorem">.Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h4>
+													<h4 class="ae">aenean commodo</h4>
+													<div class="hinhanh">
+														<ul>
+															<span class="trans">	
+																<img class="hinh" src="image/1.jpg" alt="">
+																<div class="middle">
+																	<div class="instagram">
+																		<i class=" fa fa-instagram"></i>
+																	</div>   
+																</div>
+															</span>
+															<span class="trans">    
+																<img class="hinh" src="image/2.jpg" alt="">
+																<div class="middle">
+																	<div class="instagram">
+																		<i class="fa fa-instagram"></i>
+																	</div>   
+																</div>
+															</span>
+															<span class="trans">    
+																<img class="hinh" src="image/3.jpg" alt="">
+																<div class="middle">
+																	<div class="instagram">
+																		<i class="fa fa-instagram"></i>
+																	</div>   
+																</div>
+															</span>
+															<div class="top">
+																<span class="trans">    
+																	<img class="hinh" src="image/4.jpg" alt="">
+																	<div class="middle">
+																		<div class="instagram">
+																			<i class="fa fa-instagram"></i>
+																		</div>   
+																	</div>
+																</span>
+																<span class="trans">    
+																	<img class="hinh" src="image/5.jpg" alt="">
+																	<div class="middle">
+																		<div class="instagram">
+																			<i class="fa fa-instagram"></i>
+																		</div>   
+																	</div>
+																</span>
+																<span class="trans">    
+																	<img class="hinh" src="image/6.jpg" alt="">
+																	<div class="middle">
+																		<div class="instagram">
+																			<i class="fa fa-instagram"></i>
+																		</div>   
+																	</div>
+																</span>
+															</div>
+
+														</ul>
+													</div>
+													<div class="titlefollow">
+														<p> follow our awesomeness</p>
+														<div class="icon">
+															<i class="fa fa-twitter" aria-hidden="true"></i>
+															<i class="fa fa-instagram" aria-hidden="true"></i>
+															<i class="fa fa-facebook" aria-hidden="true"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</li>
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</div>
 					</nav>
+					
 				</div>
 			</div>
 		</div>
 	</header>
-				<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><img class="slide" src="image/h3-slider1-background-img.jpg" alt="slide1" width="100%"></div>
-					<div class="swiper-slide"><img class="slide" src="image/h3-slider2-background-img.jpg" alt="slide1" width="100%"></div>
-					<div class="swiper-slide"><img class="slide" src="image/h3-slider3-background-img.jpg" alt="slide1" width="100%"></div>
-				</div>
-				<!-- Add Arrows -->
-				<div class="swiper-button-next" ></div>
-				<div class="swiper-button-prev"></div>
-				 <div class="swiper-counter"></div>
+	<div class="swiper-container so1">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img class="slide" src="image/h3-slider1-background-img.jpg" alt="slide1" width="100%">
+				<div class="content" style="float: left;">
+						<ul id="sl1">			
+							<div class="ct1">Amazing offer only in December</div> 
+							<h2 style="font-size: 47px">BRAND NEW PRODUCT</h2>
+							<hr  width="22%" align="left" class="hr"/>
+							<a href="#"><img src="image/appstore.png"></a>
+							<a href="#"><img src="image/ggplay.png"></a>
+						</ul>
+					</div>
 			</div>
+			<div class="swiper-slide"><img class="slide" src="image/h3-slider2-background-img.jpg" alt="slide1" width="100%">
+			<div class="content1">
+						<ul id="sl1">			
+							
+							<h2>BEST APP YOUR SELFIES</h2>
+							<hr  width="18%" align="right" class="hr"/>
+							<div class="ct1">
+							<p>Alierewnum phaedrum torquatos nec eu, dasvis detraxit ertssa periculiser reex,nihil dexpetendis in mei Meis.</p>
+						</div> 
+						</ul>
+					</div></div>
+			<div class="swiper-slide"><img class="slide" src="image/h3-slider3-background-img.jpg" alt="slide1" width="100%">
+			<div class="content2">
+						<ul id="sl1">			
+							
+							<h2></h2>
+							<hr  width="8%" align="left" class="hr"/>
+							<div class="ct1">Amazing offer only in December</div> 
+						</ul>
+					</div></div>
+		</div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next" ><span class="number-next" value="1">2</span></div>
+		<div class="swiper-button-prev"><span class="number-prev" value="2">3</span></div>
+		<div class="swiper-counter"></div>
+	</div>
 </div>

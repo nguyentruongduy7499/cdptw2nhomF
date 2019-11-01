@@ -1,9 +1,34 @@
 .type-1{
+	width: 100%;
+	height: 80%;
 	position: relative;
+	.swiper-counter, .swiper-counter span {
+		position: relative;
+		bottom:10px;
+		right: 10px;
+		z-index: 99999;
+		font-size: 30px;
+		color: #fff;
+	}
+	.swiper-counter .next, .swiper-counter .count {
+		position:absolute;
+	}
+
+	.swiper-counter .next {
+		transform:translateY(-12px);
+		right: 10px;
+	}
 	.swiper-container{
 		.swiper-button-next{
 			background-image: none;
 			i{display: none;}
+			.number-next{
+				position: absolute;
+				right: 53px;
+				font-weight: bold;
+				color: black;
+				font-size: 45px;
+			}
 		}
 		.swiper-button-next:before{
 			content: "";
@@ -41,9 +66,17 @@
 			margin-bottom: 12px;
 		}
 
+
 		.swiper-button-prev{
 			background-image: none;
 			i{display: none;}
+			.number-prev{
+				position: absolute;
+				left: 53px;
+				font-weight: bold;
+				color: black;
+				font-size: 45px;
+			}
 		}
 		.swiper-button-prev:before{
 			content: "";
@@ -101,6 +134,54 @@
 			-ms-flex-align: center;
 			-webkit-align-items: center;
 			align-items: center;
+			.content{
+				position: absolute;
+				z-index: 3;
+				left: 250px;
+				top: 300px;
+				text-align: left;
+				#sl1{
+					.ct1{
+						font-size: 15px;
+						color: grey;
+					}
+					.hr{
+						border: 2px solid black;
+					}
+				}
+			}
+			.content1{
+				position: absolute;
+				z-index: 2;
+				text-align: right;
+				right: 250px;
+				top: 450px;
+				#sl1{
+					.ct1{
+						font-size: 15px;
+						color: grey;
+					}
+					.hr{
+						border: 2px solid black;
+					}
+				}
+			}
+			.content2{
+				position: absolute;
+				z-index: 3;
+				left: 250px;
+				top: 300px;
+				text-align: left;
+				#sl1{
+					.ct1{
+						font-size: 15px;
+						color: grey;
+					}
+					.hr{
+						border: 2px solid black;
+					}
+				}
+			}
 		}
 	}
 	.scroll{
