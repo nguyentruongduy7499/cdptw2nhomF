@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
 								<div class="iner">
 									<div class="hinhanh">
 										<span class="new">New</span>
-										<img src="image/1.jpg" alt="">
+										<img src="images/3-1.jpg" alt="">
 									</div>
 									<div class="text">
 										<div class="out-text" >
@@ -56,7 +56,7 @@ $url_path = str_replace('\\', '/', $url_path);
 							<div class="vo">
 								<div class="iner">
 									<div class="hinhanh">
-										<img src="image/2.jpg" alt="">
+										<img src="images/3-2.jpg" alt="">
 									</div>
 									<div class="text">
 										<div class="out-text">
@@ -93,7 +93,7 @@ $url_path = str_replace('\\', '/', $url_path);
 								<div class="iner">
 									<div class="hinhanh">
 										<span class="sale">SALE</span>
-										<img src="image/3.jpg" alt="">
+										<img src="images/3-3.jpg" alt="">
 									</div>
 									<div class="text">
 										<div class="out-text">
@@ -130,7 +130,7 @@ $url_path = str_replace('\\', '/', $url_path);
 								<div class="iner">
 									<div class="hinhanh">
 										<span class="sale">OUT OF STOCK</span>
-										<img src="image/4.jpg" alt="">
+										<img src="images/3-4.jpg" alt="">
 									</div>
 									<div class="text">
 										<div class="out-text">
@@ -166,7 +166,7 @@ $url_path = str_replace('\\', '/', $url_path);
 							<div class="vo">
 								<div class="iner">
 									<div class="hinhanh">
-										<img src="image/5.jpg" alt="">
+										<img src="images/3-5.jpg" alt="">
 									</div>
 									<div class="text">
 										<div class="out-text">
@@ -203,7 +203,7 @@ $url_path = str_replace('\\', '/', $url_path);
 								<div class="iner">
 									<div class="hinhanh">
 										<span class="sale">SALE</span>
-										<img src="image/6.jpg" alt="">
+										<img src="images/3-6.jpg" alt="">
 									</div>
 									<div class="text">
 										<div class="out-text">
@@ -248,7 +248,7 @@ $url_path = str_replace('\\', '/', $url_path);
 					
 					<div class="lopcontent">
 						<div class="chuaanh">
-							<a href="#"><img src="image/1-1.jpg" alt=""></a>
+							<a href="#"><img src="images/3-1-1.jpg" alt=""></a>
 							<span class="new1">New</span>
 						</div>
 						<div class="chuatintuc">
@@ -297,7 +297,7 @@ $url_path = str_replace('\\', '/', $url_path);
 					
 					<div class="lopcontent">
 						<div class="chuaanh">
-							<a href="#"><img src="image/2-1.jpg" alt=""></a>
+							<a href="#"><img src="images/3-2-1.jpg" alt=""></a>
 							
 						</div>
 						<div class="chuatintuc">
@@ -341,7 +341,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				<div class="thongtin" id="tintuc2">					
 					<div class="lopcontent">
 						<div class="chuaanh">
-							<a href="#"><img src="image/3-1.jpg" alt=""></a>
+							<a href="#"><img src="images/3-3-1.jpg" alt=""></a>
 							<span class="sale1">Sale</span>
 						</div>
 						<div class="chuatintuc">
@@ -389,7 +389,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				<div class="thongtin" id="tintuc3">					
 					<div class="lopcontent">
 						<div class="chuaanh">
-							<a href="#"><img src="image/4-1.jpg" alt=""></a>
+							<a href="#"><img src="images/3-4-1.jpg" alt=""></a>
 							<span class="sale1">sale</span>
 						</div>
 						<div class="chuatintuc">
@@ -428,7 +428,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				<div class="thongtin" id="tintuc4">					
 					<div class="lopcontent">
 						<div class="chuaanh">
-							<a href="#"><img src="image/5-1.jpg" alt=""></a>
+							<a href="#"><img src="images/3-5-1.jpg" alt=""></a>
 							
 						</div>
 						<div class="chuatintuc">
@@ -472,7 +472,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				<div class="thongtin" id="tintuc5">					
 					<div class="lopcontent">
 						<div class="chuaanh">
-							<a href="#"><img src="image/6-1.jpg" alt=""></a>
+							<a href="#"><img src="images/3-6-1.jpg" alt=""></a>
 							<span class="sale1">Sale</span>
 						</div>
 						<div class="chuatintuc">
