@@ -1,37 +1,33 @@
 $(document).ready(function(){
 // Swiper: Slider
-var swiper = new Swiper('.swiper-container', {
-    loop: true,
-    navigation: {
+var swiper = new Swiper('.so3', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-    },
-    
-    keyboard: {
-      enabled: true,
-      onlyInViewport: false
-  },
-  slidesPerView: 3,
-  paginationClickable: true,
-  spaceBetween: 20,
-  breakpoints: {
-    1920: {
-        slidesPerView: 3,
-        spaceBetween: 30
-    },
-    900: {
-        slidesPerView: 1,
-        spaceBetween: 30,
-
-    },
-    480: {
-        slidesPerView: 1,
-        spaceBetween: 10
-    }
-}
-});
-
-
+      },
+      breakpoints: {
+        500: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        800: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        
+        1100: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      }
+    });
 $('.holder').click(function(){
 
     var i = $(this).attr("id");
@@ -92,6 +88,9 @@ $('.holder').click(function(){
         
     }
     
+});
+$('.closebtn').click(function(){
+    $("input[type='text']").val(1);
 });
 function OpenS() {
     $('#tintuc').css({'display':'block'});

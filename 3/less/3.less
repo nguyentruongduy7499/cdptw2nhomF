@@ -1,10 +1,238 @@
 .type-2{
 	.container{
-		max-width: 1280px;
+		max-width: 1100px;
 		margin: 0 auto;
 		height: 100%;
 		background-color: #fff;
 		position: relative;
+		.khung{
+			width: 1100px;
+			height: 536px;
+			position: relative;
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;
+				.swiper-slide {
+					text-align: center;
+					font-size: 18px;
+					background: #fff;
+					/* Center slide text vertically */
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: -webkit-flex;
+					display: flex;
+					-webkit-box-pack: center;
+					-ms-flex-pack: center;
+					-webkit-justify-content: center;
+					justify-content: center;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					-webkit-align-items: center;
+					align-items: center;
+					.vo{
+						padding: 0 5px;
+						margin-bottom: 10px;
+						.iner{
+							position: relative;
+							.hinhanh{
+								.new{
+									top: 30px;
+									right: 0;
+									position: absolute;
+									background: white;
+									text-align: center;
+									padding-right: 21px;
+									padding-left: 15px;
+									text-transform: lowercase;
+								}
+								.sale{
+									top: 30px;
+									right: 0;
+									position: absolute;
+									color: white;
+									background: black;
+									text-align: center;
+									padding-right: 16px;
+									padding-left: 16px;
+									text-transform: lowercase;
+								}
+								img{
+									width:100%;
+								}
+							}
+							.text{
+								position: absolute;
+								top: 87%;
+								left: 35%;
+								overflow: hidden;
+								.out-text{
+									.in-text{
+										opacity:1;
+										transform: translateY(101%);
+										overflow: hidden;
+										.holder{
+											position: relative;
+											float: left;
+											a{
+												position: relative;
+												display: inline-block;
+												background-color: #000;
+												color: #fff;
+												padding: 4px 15px 0;
+												font-size: 12px;
+												font-weight: 500;
+												height: 30px;
+												line-height: 25px;
+												text-transform: lowercase;
+												letter-spacing: .1em;
+												text-decoration: none;
+											}
+											a:hover{
+												text-decoration: none;
+												color:darkgray;
+											}
+										}
+										.wishlist{
+											right: 17px;
+											float: left;
+											padding-left: 3px;
+											padding-right: 3px;
+											background: gray;
+											height: 30px;
+											font-size: 18px;
+											text-align: center;
+											padding-top: 7px;
+											a{
+												color:white;
+											}
+											a:hover{
+												color:darkgray;
+											}
+										}
+									}
+								}
+							}
+						}
+						.title{
+							position: relative;
+							margin-top: 30px;
+							margin-bottom: 10px;
+							.title1{
+								margin: 0;
+								float: left;
+								font-size: 15px;
+								text-transform: lowercase;
+								line-height: 1.4375em;
+								font-weight: bold;
+								a{
+									color: #000;
+								}
+								a:hover{
+									text-decoration: none;
+								}
+							}
+							.price-lon{
+								.price{
+									float: right;
+									font-size: 12px;
+									color: #949494;
+									padding-top: 8px;
+									.giamgia{
+										text-decoration: line-through;
+									}
+								}
+								.add-to-cart{
+									width: 56%;
+									margin: 0;
+									text-align: right;
+									opacity: 0;
+									a{
+										color: #949494;
+										text-decoration: none;
+										padding: 0;
+										margin: 0;
+										font-weight: 300;
+										font-size: 12px;
+										text-transform: lowercase;
+									}
+									i{
+										font-size: 12px;
+										padding-left: 8px;
+									}
+								}
+							}
+							.category{
+								padding: 3px 0 0;
+								text-align: left;
+								clear: both;
+								line-height: 1;
+								margin:0;
+								text-align: left;
+								text-transform: lowercase;
+								a{
+									font-size: 12px;
+									text-decoration: none;
+									color: #949494;
+								}
+							}
+						}
+					}
+					.vo:hover .text .out-text .in-text{
+						overflow: hidden;
+						opacity:1;
+						transform: translate(0,-2%);
+						height:100%;
+						transition: 0.4s ease;
+					}
+					.vo:hover .title .price-lon .price{
+						opacity: 0;
+						transform: translateX(61px);
+						transition: 0.4s ease;
+					}
+					.vo:hover .title .price-lon .add-to-cart{
+						opacity: 1;
+						transform: translateX(148px);
+						transition: 0.4s ease;
+					}
+				}
+				.nut{
+				//swiper-button
+				.swiper-button-next{
+					top:15%;
+					right: 0.5%;
+					background-image: none;
+					font-size: 24px;
+					color: #b6b6b6;
+					transition: 0.4s;
+					width: 9px;
+				}
+				.swiper-button-next:after{
+					content: '';
+				}
+				.swiper-button-next:hover{
+					color: #000;
+				}
+				.swiper-button-prev{
+					top:15%;
+					right: 2%;
+					left: auto;
+					background-image: none;
+					font-size: 24px;
+					color: #b6b6b6;
+					transition: 0.4s;
+					width: 9px;
+				}
+				.swiper-button-prev:after{
+					content: '';
+				}
+				.swiper-button-prev:hover{
+					color: #000;
+				}
+			}	
+		}
 		.thongtin{
 			z-index: 1;
 			left: 0;
@@ -166,360 +394,32 @@
 			}
 		}
 	}
-	.khung{
-		width: 1100px;
-		height: 536px;
-		margin-left: 45px;
-		position: relative;
-		.swiper-container {
-			width: 100%;
-			height: 100%;
-			position: relative;
-			margin:0 4%;
-
-			.swiper-slide {
-				text-align: center;
-				font-size: 18px;
-				background: #fff;
-				margin-right: 10px;
-				width: 340px;
-
-				/* Center slide text vertically */
-				display: -webkit-box;
-				display: -ms-flexbox;
-				display: -webkit-flex;
-				display: flex;
-				-webkit-box-pack: center;
-				-ms-flex-pack: center;
-				-webkit-justify-content: center;
-				justify-content: center;
-				-webkit-box-align: center;
-				-ms-flex-align: center;
-				-webkit-align-items: center;
-				align-items: center;
-				.vo{
-					padding: 0 5px;
-					margin-bottom: 10px;
-					.iner{
-						position: relative;
-						.hinhanh{
-							.new{
-								top: 30px;
-								right: 0;
-								position: absolute;
-								background: white;
-								text-align: center;
-								padding-right: 21px;
-								padding-left: 15px;
-								text-transform: lowercase;
-							}
-							.sale{
-								top: 30px;
-								right: 0;
-								position: absolute;
-								color: white;
-								background: black;
-								text-align: center;
-								padding-right: 16px;
-								padding-left: 16px;
-								text-transform: lowercase;
-							}
-							img{
-								width:100%;
-							}
-						}
-						.text{
-							position: absolute;
-							top: 87%;
-							left: 35%;
-							overflow: hidden;
-							.out-text{
-								.in-text{
-									opacity:1;
-									transform: translateY(101%);
-									overflow: hidden;
-									.holder{
-										position: relative;
-										float: left;
-										a{
-											position: relative;
-											display: inline-block;
-											background-color: #000;
-											color: #fff;
-											padding: 1px 15px 0;
-											font-size: 12px;
-											font-weight: 500;
-											height: 30px;
-											line-height: 25px;
-											text-transform: lowercase;
-											letter-spacing: .1em;
-											text-decoration: none;
-										}
-										a:hover{
-											text-decoration: none;
-											color:darkgray;
-										}
-									}
-									.wishlist{
-										right: 17px;
-										float: left;
-										padding-left: 3px;
-										padding-right: 3px;
-										background: gray;
-										height: 31px;
-										font-size: 18px;
-										text-align: center;
-										padding-top: 7px;
-										a{
-											color:white;
-										}
-										a:hover{
-											color:darkgray;
-										}
-									}
-								}
-							}
-						}
-					}
-					.title{
-						position: relative;
-						margin-top: 30px;
-						margin-bottom: 10px;
-						.title1{
-							margin: 0;
-							float: left;
-							font-size: 15px;
-							text-transform: lowercase;
-							line-height: 1.4375em;
-							font-weight: bold;
-							a{
-								color: #000;
-							}
-							a:hover{
-								text-decoration: none;
-							}
-						}
-						.price-lon{
-							.price{
-								float: right;
-								font-size: 12px;
-								color: #949494;
-								padding-top: 8px;
-								.giamgia{
-									text-decoration: line-through;
-								}
-							}
-							.add-to-cart{
-								width: 56%;
-								margin: 0;
-								text-align: right;
-								opacity: 0;
-								a{
-									color: #949494;
-									text-decoration: none;
-									padding: 0;
-									margin: 0;
-									font-weight: 300;
-									font-size: 12px;
-									text-transform: lowercase;
-								}
-								i{
-									font-size: 12px;
-									padding-left: 8px;
-								}
-							}
-						}
-						.category{
-							padding: 3px 0 0;
-							text-align: left;
-							clear: both;
-							line-height: 1;
-							margin:0;
-							text-align: left;
-							text-transform: lowercase;
-							a{
-								font-size: 12px;
-								text-decoration: none;
-								color: #949494;
-							}
-						}
-					}
-				}
-				.vo:hover .text .out-text .in-text{
-					overflow: hidden;
-					opacity:1;
-					transform: translate(0,-2%);
-					height:100%;
-					transition: 0.4s ease;
-				}
-				.vo:hover .title .price-lon .price{
-					opacity: 0;
-					transform: translateX(61px);
-					transition: 0.4s ease;
-				}
-				.vo:hover .title .price-lon .add-to-cart{
-					opacity: 1;
-					transform: translateX(148px);
-					transition: 0.4s ease;
-				}
-			}
-			//swiper-button
-			.swiper-button-next{
-				top:15%;
-				right: 0.5%;
-				background-image: none;
-				font-size: 24px;
-				color: #b6b6b6;
-				transition: 0.4s;
-				width: 9px;
-			}
-			.swiper-button-next:hover{
-				color: #000;
-			}
-			.swiper-button-prev{
-				top:15%;
-				right: 2%;
-				left: auto;
-				background-image: none;
-				font-size: 24px;
-				color: #b6b6b6;
-				transition: 0.4s;
-				width: 9px;
-			}
-			.swiper-button-prev:hover{
-				color: #000;
-			}
-		}
-	}
-	@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 800px) {
+	.container{
 		.khung {
 			width: 400px;
-			height: 300px;
+			height: auto;
 			position: relative;
-			margin-left: 52px;
-			.swiper-container{
-				width: 70%;
-				margin-left: 55px;
-				margin-top: 47px;
-				.swiper-slide{
-					width: 287px;
-					margin-top: 18px;
-					margin-right: 10px;
-					font-size: 13px;
-					.vo{
-						.title{
-							font-size:13px;
-							position: relative;
-							margin-top: 10px;
-							margin-bottom: 10px;
-							.price-lon{
-								.add-to-cart{
-									width: 68%;
-								}
-							}
-						}
-					}
-				}
-				.nut{
-					position: relative;
-					top: -91%;
-				}
-				.swiper-button-next{
-					top:4% !important;
-					font-size: 25px !important;
-					right:1.5%;
-					
-				}
-				.swiper-button-prev{
-					top:4% !important;
-					font-size: 25px !important;
-					right: 6% !important;
-				}
-			}
-			.text{
-				top:85% !important;
-			}
-			.vo:hover .title .price-lon .add-to-cart{
-				opacity: 1;
-				transform: translateX(88px) !important;
-				transition: 0.4s ease;
-			}
-			.thongtin{
-				font-size: 13px;
-			}
-		}
-		.lopcontent{
-			height: 90% !important;
-			top:25px;
-			background-size: cover;
-			.chuaanh{
-				width: 100% !important;
-				height: 40% !important;
-				background-size: cover;
-				img{
-					width: 100%;
-					height: 100% !important;
-
-				}
-				.new1{
-					right: 1px !important;
-					left:81%!important;
-				}
-			}
-			.chuatintuc{
-				width: 100% !important;
-				height: 50% !important;
-				.noidung{
-					.row{
-						margin:2% !important;
-						h2{
-							font-size: 20px !important;
-							margin:0px !important;
-						}
-						.price1{
-							.giatien1{
-								margin: 0 0 7px !important;
-								font-size: 17px!important;
-							}
-							.comment{
-								font-size: 13px!important;
-								margin:0 !important;
-							}
-							.add-wish{
-								margin-top: 25px!important;
-							}
-						}
-					}
-				}
-			}
-		}
-		.closebtn{
-			top:-2px !important;
-			right: 2px !important;
-			font-size: 17px !important;
-			opacity: 0;
-		}
-		.closebtn:hover{
-			opacity: 1;
-		}
-	}
-	@media only screen and (min-width: 601px) and (max-width: 900px) {
-
-		.khung {
-			width: 600px;
-			height: 290px;
-			position: relative;
-			margin-left: 52px;
 			.swiper-container{
 				width: 100%;
-				margin: 0;
+				margin-left: 41px;
+				margin-right: 51px;
+				margin-top: 125px;
+				margin-bottom: 80px;
 				.swiper-slide{
-					width: 298px !important;
-					margin-top: 18px;
-					margin-right: 7px !important;
-					left:15px;
+					width: 287px;
+					margin-top: 20px;
 					font-size: 13px;
 					.vo{
+						.iner{
+							.text{
+								top:85% !important;
+								.out-text{
+									margin-top: 12px;
+								}
+							}
+						}
 						.title{
 							font-size:13px;
 							position: relative;
@@ -529,103 +429,274 @@
 								.add-to-cart{
 									width: 68%;
 								}
+								.price{
+									padding-top: 4px;
+								}
 							}
 						}
+					}
+					.vo:hover .title .price-lon .add-to-cart{
+						opacity: 1;
+						transform: translateX(122px);
+						transition: 0.4s ease;
 					}
 				}
 				.nut{
-					position: relative;
-					top: -91%;
+					position: absolute;
+					right: 0;
+					top:1px;
+					.swiper-button-next{
+						top:7px;
+						font-size: 25px;
+						right:6px;
+					}
+					.swiper-button-prev{
+						top:7px;
+						font-size: 25px;
+						right: 21px;
+					}
 				}
-				.swiper-button-next{
-					margin-top: -30px;
-					right: 0% !important;
-					font-size: 25px !important;
-					
-				}
-				.swiper-button-prev{
-					margin-top: -30px;
-					font-size: 25px !important;
-					right: 2% !important;
-				}
-			}
-			.text{
-				top:85% !important;
-			}
-			.vo:hover .title .price-lon .add-to-cart{
-				opacity: 1;
-				transform: translateX(88px) !important;
-				transition: 0.4s ease;
 			}
 			.thongtin{
 				font-size: 13px;
-			}
-		}
-		.lopcontent{
-			height: 92% !important;
-			top:25px;
-			background-size: cover;
-			.chuaanh{
-				width: 100% !important;
-				height: 50% !important;
-				background-size: cover;
-				img{
-					width: 100%;
-					height: 100% !important;
-					
-
-				}
-				.new1{
-					right: 1px !important;
-					left:81%!important;
-				}
-			}
-			.chuatintuc{
-				width: 100% !important;
-				height: 50% !important;
-				.noidung{
-					.row{
-						margin:5% !important;
-						h2{
-							font-size: 20px !important;
-							margin:0px !important;
+				.lopcontent{
+					height: 90% !important;
+					top:25px;
+					background-size: cover;
+					.chuaanh{
+						width: 100% !important;
+						height: 40% !important;
+						background-size: cover;
+						img{
+							width: 100%;
+							height: 100% !important;
 						}
-						.price1{
-							.cart{
-								.cangui{
-									width: 37% !important;
-									padding: 10px 0 !important;
+						.new1{
+							right: 1px !important;
+							left:81%!important;
+						}
+						.sale1{
+							right: 0;
+							left:81%!important;
+						}
+					}
+					.chuatintuc{
+						width: 100% !important;
+						height: 50% !important;
+						.closebtn{
+							top:-2px !important;
+							right: 2px !important;
+							font-size: 17px !important;
+							opacity: 0;
+						}
+						.closebtn:hover{
+							opacity: 1;
+						}
+						.noidung{
+							.row{
+								margin:2% !important;
+								h2{
+									font-size: 20px !important;
+									margin:0px !important;
 								}
-							}
-							.giatien1{
-								margin: 0 0 7px !important;
-								font-size: 17px!important;
-							}
-							.comment{
-								font-size: 14px!important;
-								margin:0 !important;
-							}
-							.add-wish{
-								margin-top: 25px!important;
+								.price1{
+									.giatien1{
+										margin: 0 0 7px !important;
+										font-size: 17px!important;
+									}
+									.comment{
+										font-size: 13px!important;
+										margin:0 !important;
+									}
+									.add-wish{
+										margin-top: 25px!important;
+									}
+								}
 							}
 						}
 					}
 				}
 			}
 		}
-		.closebtn{
-			top:-2px !important;
-			right: 2px !important;
-			font-size: 17px !important;
-			opacity: 0;
-		}
-		.closebtn:hover{
-			opacity: 1;
-		}
-
 	}
-	@media only screen and (min-width: 1000px){
-
+}
+@media (min-width: 501px) and (max-width: 600px){
+	.container{
+		.khung{
+			.swiper-container{
+				margin-left: 90px;
+				margin-right: 103px;
+				margin-top: 125px;
+				margin-bottom: 80px;
+			}
+		}
 	}
+}
+@media (min-width: 601px) and (max-width: 700px){
+	.container{
+		.khung{
+			.swiper-container{
+				margin-left: 140px;
+				margin-right: 160px;
+				margin-top: 125px;
+				margin-bottom: 80px;
+			}
+		}
+	}
+}
+@media (min-width: 701px) and (max-width: 800px){
+	.container{
+		.khung{
+			.swiper-container{
+				margin-left: 174px;
+				margin-right: 224px;
+				margin-top: 125px;
+				margin-bottom: 80px;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 801px) and (max-width: 1100px) {
+	.container{
+		.khung {
+			width: 700px;
+			height: auto;
+			position: relative;
+			.swiper-container{
+				width: 100%;
+				margin-left: 25px;
+				margin-right: 64px;
+				margin-top: 125px;
+				margin-bottom: 80px;
+				.swiper-slide{
+					margin-top: 20px;
+					font-size: 14px;
+					.vo{
+						.iner{
+							.text{
+								top:85% !important;
+								.out-text{
+									margin-top: 6px;
+								}
+							}
+						}
+						.title{
+							font-size:13px;
+							position: relative;
+							margin-top: 10px;
+							margin-bottom: 10px;
+							.price-lon{
+								.add-to-cart{
+									width: 68%;
+								}
+								.price{
+									padding-top: 4px;
+								}
+							}
+						}
+					}
+					.vo:hover .title .price-lon .add-to-cart{
+						opacity: 1;
+						transform: translateX(107px);
+						transition: 0.4s ease;
+					}
+				}
+				.nut{
+					position: absolute;
+					right: 0;
+					top:1px;
+					.swiper-button-next{
+						top:7px;
+						font-size: 25px;
+						right:6px;
+					}
+					.swiper-button-prev{
+						top:7px;
+						font-size: 25px;
+						right: 21px;
+					}
+				}
+			}
+			.thongtin{
+				font-size: 14px;
+				.lopcontent{
+					height: 90%;
+					top:25px;
+					background-size: cover;
+					.chuaanh{
+						width: 100%;
+						height: 40%;
+						background-size: cover;
+						img{
+							width: 100%;
+							height: 100%;
+							background-size: cover;
+						}
+						.new1{
+							right: 1px;
+							left:81%;
+						}
+						.sale1{
+							right: 0;
+							left:81%;
+						}
+					}
+					.chuatintuc{
+						width: 100%;
+						height: 50%;
+						.closebtn{
+							top:-2px;
+							right: 2px;
+							font-size: 17px;
+							opacity: 0;
+						}
+						.closebtn:hover{
+							opacity: 1;
+						}
+						.noidung{
+							font-size: 14px;
+							.row{
+								margin:2%;
+								h2{
+									font-size: 20px;
+									margin:0px;
+								}
+								.price1{
+									.giatien1{
+										font-size: 14px;
+										margin: 0 0 7px;
+										font-size: 17px;
+									}
+									.comment{
+										font-size: 13px;
+										margin:0;
+									}
+									.add-wish{
+										margin-top: 25px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 901px) and (max-width: 1099px){
+	.container{
+		.khung{
+			.swiper-container{
+				margin-left: 135px;
+				margin-right: 64px;
+				margin-top: 125px;
+				margin-bottom: 80px;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1001px) and (max-width: 1099px){
+
+}
 
 }
