@@ -94,7 +94,7 @@ $url_path = str_replace('\\', '/', $url_path);
 										<a class="openBtn" id="mo" ><i class="fa fa-search" aria-hidden="true"></i></a>
 									</li>
 									<li>
-										<a href="#"><img src="image/sidearea-opener.png" width="50%" id="dai">
+										<a href="#"><img src="image/sidearea-opener.png" style=" width:50%" id="dai" alt="">
 											<div id="myNav" class="overlay-v1">
 												<a href="javascript:void(0)" class="closebtn" id="opener">&times;</a>
 												<div class="overlay-content-v1">
@@ -171,8 +171,7 @@ $url_path = str_replace('\\', '/', $url_path);
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</div>
-					</nav>
-					
+					</nav>	
 				</div>
 			</div>
 		</div>
@@ -185,29 +184,29 @@ $url_path = str_replace('\\', '/', $url_path);
 							<div class="ct1">Amazing offer only in December</div> 
 							<h2 style="font-size: 47px">BRAND NEW PRODUCT</h2>
 							<hr  width="22%" align="left" class="hr"/>
-							<a href="#"><img src="image/appstore.png"></a>
-							<a href="#"><img src="image/ggplay.png"></a>
+							<a href="#"><img src="image/appstore.png" alt=""></a>
+							<a href="#"><img src="image/ggplay.png" alt=""></a>
 						</ul>
 					</div>
 			</div>
 			<div class="swiper-slide"><img class="slide" src="image/h3-slider2-background-img.jpg" alt="slide1" width="100%">
 			<div class="content1">
-						<ul id="sl1">			
-							
+						<ul id="sl1">						
 							<h2>BEST APP YOUR SELFIES</h2>
-							<hr  width="18%" align="right" class="hr"/>
+							<hr  width="16%" align="right" class="hr"/>
 							<div class="ct1">
-							<p>Alierewnum phaedrum torquatos nec eu, dasvis detraxit ertssa periculiser reex,nihil dexpetendis in mei Meis.</p>
+							<p>Alierewnum phaedrum torquatos nec eu, dasvis detraxit ertssa <br>
+							periculiser reex,nihil dexpetendis in mei Meis.</p>
 						</div> 
 						</ul>
 					</div></div>
 			<div class="swiper-slide"><img class="slide" src="image/h3-slider3-background-img.jpg" alt="slide1" width="100%">
 			<div class="content2">
 						<ul id="sl1">			
-							
-							<h2></h2>
-							<hr  width="8%" align="left" class="hr"/>
 							<div class="ct1">Amazing offer only in December</div> 
+							<h2 style="font-weight: bold;font-size: 50px">YOU WON'T BE ABLE<br>
+							 TO PUT IT DOWN </h2>
+							<hr  width="21%" align="right" class="hr"/>
 						</ul>
 					</div></div>
 		</div>

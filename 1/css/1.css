@@ -139,7 +139,7 @@
   text-align: left;
 }
 .type-1 .swiper-container .swiper-slide .content #sl1 .ct1 {
-  font-size: 15px;
+  font-size: 21px;
   color: grey;
 }
 .type-1 .swiper-container .swiper-slide .content #sl1 .hr {
@@ -153,7 +153,7 @@
   top: 450px;
 }
 .type-1 .swiper-container .swiper-slide .content1 #sl1 .ct1 {
-  font-size: 15px;
+  font-size: 17px;
   color: grey;
 }
 .type-1 .swiper-container .swiper-slide .content1 #sl1 .hr {
@@ -162,12 +162,12 @@
 .type-1 .swiper-container .swiper-slide .content2 {
   position: absolute;
   z-index: 3;
-  left: 250px;
-  top: 300px;
-  text-align: left;
+  right: 290px;
+  top: 350px;
+  text-align: right;
 }
 .type-1 .swiper-container .swiper-slide .content2 #sl1 .ct1 {
-  font-size: 15px;
+  font-size: 21px;
   color: grey;
 }
 .type-1 .swiper-container .swiper-slide .content2 #sl1 .hr {
