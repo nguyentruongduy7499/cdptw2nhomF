@@ -269,14 +269,14 @@ $url_path = str_replace('\\', '/', $url_path);
 											<span class="star5"><i class="fa fa-star-o" aria-hidden="true"></i></span>
 										</div>
 										<div class="comment">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eius cupiditate cum officiis, eum esse aperiam voluptatum. Molestias earum perferendis quibusdam similique magnam facere nostrum laboriosam ab rem? Ducimus, beatae?</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.</p>
 										</div>
 										<form class="cart" method="post">
 
 											<div class="cangui">
 												<span class="Quantity">Quantity</span>
 												<span class="left"><a href="#" ><i class="fa fa-angle-left" aria-hidden="true"></i></a></span>
-												<input type="text" name="qulity" pattern="[0-9]*" inputmode="numeric" value="1" class="d">
+												<input type="text" name="qulity" pattern="[0-9]*" value="1" class="d">
 												<span class="right"><a href="#" ><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 											</div>
 											<button type="submit" class="add">Add to cart</button>
@@ -314,14 +314,14 @@ $url_path = str_replace('\\', '/', $url_path);
 											
 										</div>
 										<div class="comment">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eius cupiditate cum officiis, eum esse aperiam voluptatum. Molestias earum perferendis quibusdam similique magnam facere nostrum laboriosam ab rem? Ducimus, beatae?</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.</p>
 										</div>
 										<form class="cart" method="post">
 
 											<div class="cangui">
 												<span class="Quantity">Quantity</span>
 												<span class="left"><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></span>
-												<input type="text" name="qulity" pattern="[0-9]*" inputmode="numeric" value="1" class="d">
+												<input type="text" name="qulity" pattern="[0-9]*" value="1" class="d">
 												<span class="right"><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 											</div>
 											<button type="submit" class="add">Add to cart</button>
@@ -362,14 +362,14 @@ $url_path = str_replace('\\', '/', $url_path);
 											<span class="star5"><i class="fa fa-star-o" aria-hidden="true"></i></span>
 										</div>
 										<div class="comment">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eius cupiditate cum officiis, eum esse aperiam voluptatum. Molestias earum perferendis quibusdam similique magnam facere nostrum laboriosam ab rem? Ducimus, beatae?</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.</p>
 										</div>
 										<form class="cart" method="post">
 
 											<div class="cangui">
 												<span class="Quantity">Quantity</span>
 												<span class="left"><a href="#" ><i class="fa fa-angle-left" aria-hidden="true"></i></a></span>
-												<input type="text" name="qulity" pattern="[0-9]*" inputmode="numeric" value="1" class="d">
+												<input type="text" name="qulity" pattern="[0-9]*" value="1" class="d">
 												<span class="right"><a href="#" ><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 											</div>
 											<button type="submit" class="add">Add to cart</button>
@@ -445,14 +445,14 @@ $url_path = str_replace('\\', '/', $url_path);
 											
 										</div>
 										<div class="comment">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eius cupiditate cum officiis, eum esse aperiam voluptatum. Molestias earum perferendis quibusdam similique magnam facere nostrum laboriosam ab rem? Ducimus, beatae?</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.</p>
 										</div>
 										<form class="cart" method="post">
 
 											<div class="cangui">
 												<span class="Quantity">Quantity</span>
 												<span class="left"><a href="#" ><i class="fa fa-angle-left" aria-hidden="true"></i></a></span>
-												<input type="text" name="qulity" pattern="[0-9]*" inputmode="numeric" value="1" class="d">
+												<input type="text" name="qulity" pattern="[0-9]*" value="1" class="d">
 												<span class="right"><a href="#" ><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 											</div>
 											<button type="submit" class="add">Add to cart</button>
@@ -493,14 +493,14 @@ $url_path = str_replace('\\', '/', $url_path);
 											<span class="star5"><i class="fa fa-star-o" aria-hidden="true"></i></span>
 										</div>
 										<div class="comment">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eius cupiditate cum officiis, eum esse aperiam voluptatum. Molestias earum perferendis quibusdam similique magnam facere nostrum laboriosam ab rem? Ducimus, beatae?</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ultricies aliquam.</p>
 										</div>
 										<form class="cart" method="post">
 
 											<div class="cangui">
 												<span class="Quantity">Quantity</span>
 												<span class="left"><a href="#" ><i class="fa fa-angle-left" aria-hidden="true"></i></a></span>
-												<input type="text" name="qulity" pattern="[0-9]*" inputmode="numeric" value="1" class="d">
+												<input type="text" name="qulity" pattern="[0-9]*" value="1" class="d">
 												<span class="right"><a href="#" ><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
 											</div>
 											<button type="submit" class="add">Add to cart</button>
@@ -508,7 +508,6 @@ $url_path = str_replace('\\', '/', $url_path);
 										<div class="add-wish">
 											<a href="#" class="heart"><i class="fa fa-heart" aria-hidden="true"></i></a>
 											<a href="#" class="Wishlist">Add to Wishlist</a>
-
 										</div>
 									</div>
 								</div>
@@ -516,10 +515,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
-
-
 	</div>
 </div>
