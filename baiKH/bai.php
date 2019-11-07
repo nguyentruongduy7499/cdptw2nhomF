@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/2.css"> 
     <link rel="stylesheet" type="text/css" href="css/3.css"> 
     <link rel="stylesheet" type="text/css" href="css/4.css">
-    <link rel="stylesheet" type="text/css" href="css/5.css">  
+     
 
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/swiper.min.js"></script>
