@@ -1,3 +1,6 @@
+.type-2{position: relative;
+z-index: 2;
+background-color: #ffffff;}
 .type-2 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -67,7 +70,7 @@
 }
 .type-2 .container .khung .swiper-container .swiper-slide .vo .iner .text {
   position: absolute;
-  top: 87%;
+  top: 86%;
   left: 35%;
   overflow: hidden;
 }
@@ -104,10 +107,10 @@
   padding-left: 3px;
   padding-right: 3px;
   background: gray;
-  height: 30px;
+  height: 26px;
   font-size: 18px;
   text-align: center;
-  padding-top: 7px;
+  padding-top: 8px;
 }
 .type-2 .container .khung .swiper-container .swiper-slide .vo .iner .text .out-text .in-text .wishlist a {
   color: white;
@@ -144,10 +147,13 @@
   text-decoration: line-through;
 }
 .type-2 .container .khung .swiper-container .swiper-slide .vo .title .price-lon .add-to-cart {
-  width: 56%;
+  width: 30%;
   margin: 0;
   text-align: right;
+  float: left;
+  height: 15px;
   opacity: 0;
+  position: absolute;
 }
 .type-2 .container .khung .swiper-container .swiper-slide .vo .title .price-lon .add-to-cart a {
   color: #949494;
@@ -189,7 +195,7 @@
 }
 .type-2 .container .khung .swiper-container .swiper-slide .vo:hover .title .price-lon .add-to-cart {
   opacity: 1;
-  transform: translateX(148px);
+  transform: translateX(233px);
   transition: 0.4s ease;
 }
 .type-2 .container .khung .swiper-container .nut .swiper-button-next {
@@ -254,7 +260,7 @@
 .type-2 .container .khung .thongtin .lopcontent .chuaanh .new1 {
   background-color: #fff;
   position: absolute;
-  top: 6%;
+  top: 11%;
   left: 42%;
   padding: 3px 22px;
   font-size: 17px;
@@ -265,7 +271,7 @@
 .type-2 .container .khung .thongtin .lopcontent .chuaanh .sale1 {
   background-color: #000;
   position: absolute;
-  top: 6%;
+  top: 11%;
   left: 41.5%;
   padding: 3px 22px;
   font-size: 17px;
@@ -281,6 +287,7 @@
 }
 .type-2 .container .khung .thongtin .lopcontent .chuatintuc .noidung {
   text-align: left;
+  margin-top: 100px;
 }
 .type-2 .container .khung .thongtin .lopcontent .chuatintuc .noidung .row {
   margin: 7%;
@@ -320,9 +327,9 @@
   color: #949494;
 }
 .type-2 .container .khung .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui {
-  width: 47%;
+  width: 50%;
   border: 1px solid darkgrey;
-  padding: 10px;
+  padding: 11px 0;
   margin-right: 5px;
   float: left;
   color: #949494;
@@ -331,6 +338,8 @@
   width: 22px;
   border: none;
   text-align: center;
+  margin: -22px 0;
+  margin-left: 99px;
 }
 .type-2 .container .khung .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui .Quantity {
   margin-right: 39px;
@@ -338,9 +347,14 @@
 }
 .type-2 .container .khung .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui .left a {
   color: #949494;
+  text-decoration: none;
 }
 .type-2 .container .khung .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .cangui .right a {
   color: #949494;
+  left: 130px;
+  position: relative;
+  top: 0;
+  text-decoration: none;
 }
 .type-2 .container .khung .thongtin .lopcontent .chuatintuc .noidung .row .price1 .cart .add {
   padding: 12px 54px;
@@ -365,7 +379,7 @@
 }
 .type-2 .container .khung .thongtin .closebtn {
   position: absolute;
-  top: 20px;
+  top: 72px;
   right: 45px;
   font-size: 25px;
   cursor: pointer;
